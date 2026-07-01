@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useCallback } from 'react';
+import React, { useState } from 'react';
 import { MdMenuBook, MdExplore, MdQuiz, MdTrendingUp } from 'react-icons/md';
 import LibraryPage from './library/page';
 import ExplorePage from './explore/page';
