@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import { MdTrendingUp } from 'react-icons/md';
 
 export default function MasteryPage() {
   const masteryScore = 78;
