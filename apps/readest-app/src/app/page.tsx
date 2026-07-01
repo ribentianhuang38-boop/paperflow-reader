@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
-import { MdMenuBook, MdExplore, MdQuiz, MdTrendingUp } from 'react-icons/md';
+import { MdMenuBook, MdExplore, MdQuiz } from 'react-icons/md';
+import { MdTrendingUp as MdTrendingUpIcon } from 'react-icons/md';
 import type { IconType } from 'react-icons';
 import LibraryPage from './library/page';
 import ExplorePage from './explore/page';
@@ -19,7 +20,7 @@ const tabs: Tab[] = [
   { id: 'library', label: 'Library', icon: MdMenuBook, component: LibraryPage },
   { id: 'explore', label: 'Explore', icon: MdExplore, component: ExplorePage },
   { id: 'review', label: 'Review', icon: MdQuiz, component: ReviewPage },
-  { id: 'mastery', label: 'Mastery', icon: MdTrendingUp, component: MasteryPage },
+  { id: 'mastery', label: 'Mastery', icon: MdTrendingUpIcon, component: MasteryPage },
 ];
 
 export default function HomePage() {
